@@ -8,11 +8,16 @@ const Cards = () => {
 
     return (
         <Container>
-            <Card sx={{ maxWidth: 345, padding: '20px', border: '1px solid rgba(0, 16, 102, 0.1)', borderRadius: '1rem', boxShadow: '0px 4px 8px -2px rgba(0, 0, 0, 0.04),0px 2px 4px -2px rgba(0, 0, 0, 0.08)', marginTop: '30px' }}>
+            <Card sx={{ 
+                maxWidth: 345, 
+                padding: '20px', 
+                border: '1px solid rgba(0, 16, 102, 0.1)', 
+                borderRadius: '1rem', 
+                boxShadow: '0px 4px 8px -2px rgba(0, 0, 0, 0.04),0px 2px 4px -2px rgba(0, 0, 0, 0.08)', 
+                marginTop: '30px' 
+                }}>
                 <CardActionArea>
                     <CardContent>
-
-
                         <Typography component="div"
                             sx={{backgroundColor: '#EBF4FE',
                                 borderRadius: '50%',
@@ -28,7 +33,6 @@ const Cards = () => {
 
                             }} />
                         </Typography>
-
                         <Typography gutterBottom variant="h5" component="div" sx={{ paddingTop: '20px', fontWeight: '600' }}>
                             Teams
                         </Typography>
