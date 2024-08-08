@@ -8,6 +8,9 @@ const theme = createTheme({
     },
     secondary: {
       main: colors.secondary,
+    },
+    fillBrandWeak: {
+      main: colors.fillBrandWeak,
     }
   },
   typography: {
